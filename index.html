@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
-    <title>Portfolio website complete</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Vinay Kumar Tiwari - Khortha Lyricist & Cultural Activist</title>
     <style>
       /* Language Toggle */
       .language-toggle {
@@ -194,6 +197,11 @@
       .news-content a:hover {
         text-decoration: underline;
       }
+
+      /* Skills Section Customization */
+      .skills__name {
+        text-transform: capitalize;
+      }
     </style>
   </head>
   <body>
@@ -207,7 +215,9 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#home" class="nav__link active-link" data-i18n="home">Home</a>
+              <a href="#home" class="nav__link active-link" data-i18n="home"
+                >Home</a
+              >
             </li>
             <li class="nav__item">
               <a href="#about" class="nav__link" data-i18n="about">About</a>
@@ -216,16 +226,15 @@
               <a href="#skills" class="nav__link" data-i18n="skills">Skills</a>
             </li>
             <li class="nav__item">
-              <a href="#work" class="nav__link" data-i18n="work">Work</a>
+              <a href="#work" class="nav__link" data-i18n="work">Works</a>
             </li>
             <li class="nav__item">
-              <a href="#gallery" class="nav__link" data-i18n="gallery">Gallery</a>
+              <a href="#gallery" class="nav__link" data-i18n="gallery"
+                >Gallery</a
+              >
             </li>
             <li class="nav__item">
               <a href="#news" class="nav__link" data-i18n="news">News</a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link" data-i18n="contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -244,12 +253,11 @@
       <section class="home bd-grid" id="home">
         <div class="home__data">
           <h1 class="home__title" data-i18n="title">
-            Hi,<br />I'am <span class="home__title-color">Vinay</span><br />
-           Khortha lyricist, singer, writer,director, and cultural activist
+            Hi,<br />I'am <span class="home__title-color">Vinay Tiwari</span
+            ><br />
+            Khortha lyricist, singer, writer, director, and cultural activist
           </h1>
-
         </div>
-        
         <div class="home__img">
           <svg
             class="home__blob"
@@ -283,19 +291,34 @@
 
         <div class="about__container bd-grid">
           <div class="about__img">
-            <img src="assets/img/about.jpg" alt="" />
+            <img src="assets/img/about.jpg" alt="Vinay Kumar Tiwari" />
           </div>
 
           <div>
             <h2 class="about__subtitle" data-i18n="about_subtitle">
-              I'am Marlon
+              Vinay Kumar Tiwari
             </h2>
             <p class="about__text" data-i18n="about_text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat
-              ut voluptates soluta, aut earum nemo recusandae cumque
-              perferendis! Recusandae alias accusamus atque.
+              Renowned Khortha language lyricist, poet, and cultural advocate
+              from Jharkhand, India. His songs poignantly depict rural life,
+              folk culture, and social challenges of Jharkhand. Recognized for
+              his pioneering contributions to preserving the Khortha language
+              and folk literature.
             </p>
+            <div class="about__info">
+              <div>
+                <span class="about__info-title" data-i18n="born">Born</span>
+                <span class="about__info-name" data-i18n="born_date"
+                  >October 5, 1974</span
+                >
+              </div>
+              <div>
+                <span class="about__info-title" data-i18n="from">From</span>
+                <span class="about__info-name" data-i18n="from_place"
+                  >Roam village, Topchanchi, Dhanbad</span
+                >
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -310,58 +333,92 @@
               Professional Skills
             </h2>
             <p class="skills__text" data-i18n="skills_text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
-              optio id vero amet, alias architecto consectetur error eum eaque
-              sit.
+              Vinay Kumar Tiwari has mastered multiple artistic disciplines that
+              contribute to his cultural activism and preservation of Khortha
+              traditions.
             </p>
             <div class="skills__data">
               <div class="skills__names">
-                <i class="bx bxl-html5 skills__icon"></i>
-                <span class="skills__name">HTML5</span>
+                <i class="bx bxs-music skills__icon"></i>
+                <span class="skills__name" data-i18n="skill_lyricist"
+                  >Lyricist</span
+                >
               </div>
-              <div class="skills__bar skills__html"></div>
-              <div>
-                <span class="skills__percentage">95%</span>
-              </div>
+              <div class="skills__bar skills__lyrics"></div>
             </div>
             <div class="skills__data">
               <div class="skills__names">
-                <i class="bx bxl-css3 skills__icon"></i>
-                <span class="skills__name">CSS3</span>
+                <i class="bx bxs-book skills__icon"></i>
+                <span class="skills__name" data-i18n="skill_poet">Poet</span>
               </div>
-              <div class="skills__bar skills__css"></div>
-              <div>
-                <span class="skills__percentage">85%</span>
-              </div>
+              <div class="skills__bar skills__poetry"></div>
             </div>
             <div class="skills__data">
               <div class="skills__names">
-                <i class="bx bxl-javascript skills__icon"></i>
-                <span class="skills__name">JAVASCRIPT</span>
+                <i class="bx bxs-megaphone skills__icon"></i>
+                <span class="skills__name" data-i18n="skill_activist"
+                  >Cultural Activist</span
+                >
               </div>
-              <div class="skills__bar skills__js"></div>
-              <div>
-                <span class="skills__percentage">65%</span>
-              </div>
+              <div class="skills__bar skills__activism"></div>
             </div>
             <div class="skills__data">
               <div class="skills__names">
-                <i class="bx bxs-paint skills__icon"></i>
-                <span class="skills__name">UX/UI</span>
+                <i class="bx bxs-video skills__icon"></i>
+                <span class="skills__name" data-i18n="skill_director"
+                  >Director</span
+                >
               </div>
-              <div class="skills__bar skills__ux"></div>
-              <div>
-                <span class="skills__percentage">85%</span>
-              </div>
+              <div class="skills__bar skills__directing"></div>
             </div>
           </div>
 
           <div>
-            <img src="assets/img/work3.jpg" alt="" class="skills__img" />
+            <img
+              src="assets/img/uncle_award.jpg"
+              alt="Vinay Kumar Tiwari performing"
+              class="skills__img"
+            />
           </div>
         </div>
       </section>
 
+      <!--===== WORKS =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title" data-i18n="work">Major Works</h2>
+
+        <div class="work__container bd-grid">
+          <div class="work__item">
+            <h3 data-i18n="work_folk_songs">Folk Songs</h3>
+            <ul>
+              <li data-i18n="song1">
+                "Tore Bina Soon Lage Nagariya" (Wedding song)
+              </li>
+              <li data-i18n="song2">
+                "Gaamak Mehandi Mahake Lagal" (Village life)
+              </li>
+              <li data-i18n="song3">
+                "Jharkhandi Hokar Bhi Dekho" (Social awareness)
+              </li>
+            </ul>
+          </div>
+          <div class="work__item">
+            <h3 data-i18n="work_poetry">Poetry Collections</h3>
+            <ul>
+              <li data-i18n="poetry1">"Fragrance of the Soil" (2015)</li>
+              <li data-i18n="poetry2">"Dreams of Sarna" (2020)</li>
+              <li data-i18n="poetry3">"Mite Nay Diha Matik Man"</li>
+            </ul>
+          </div>
+          <div class="work__item">
+            <h3 data-i18n="work_books">Books</h3>
+            <ul>
+              <li data-i18n="book1">"History of Khortha Folk Songs" (2018)</li>
+              <li data-i18n="book2">"Khortha Lok Sahitya Ka Itihas"</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
       <!--===== GALLERY =====-->
       <section class="gallery section" id="gallery">
@@ -369,66 +426,91 @@
 
         <div class="gallery__container">
           <div class="gallery__filter">
-            <button class="gallery__filter-btn active" data-filter="all">
+            <button
+              class="gallery__filter-btn active"
+              data-filter="all"
+              data-i18n="filter_all"
+            >
               All
             </button>
-            <button class="gallery__filter-btn" data-filter="web">
-              Web Design
+            <button
+              class="gallery__filter-btn"
+              data-filter="performance"
+              data-i18n="filter_performance"
+            >
+              Performances
             </button>
-            <button class="gallery__filter-btn" data-filter="app">
-              App Design
+            <button
+              class="gallery__filter-btn"
+              data-filter="awards"
+              data-i18n="filter_awards"
+            >
+              Awards
             </button>
-            <button class="gallery__filter-btn" data-filter="graphic">
-              Graphic Design
+            <button
+              class="gallery__filter-btn"
+              data-filter="events"
+              data-i18n="filter_events"
+            >
+              Events
             </button>
           </div>
 
           <div class="gallery__grid">
-            <div class="gallery__item" data-category="web">
-              <img src="assets/img/work1.jpg" alt="Web Design Project" />
+            <div class="gallery__item" data-category="performance">
+              <img
+                src="assets/img/work1.jpg"
+                alt="Vinay performing at cultural event"
+              />
               <div class="gallery__overlay">
-                <h3>Web Project</h3>
-                <p>Click to view</p>
+                <h3 data-i18n="performance1">Cultural Performance</h3>
+                <p data-i18n="click_view">Click to view</p>
               </div>
             </div>
 
-            <div class="gallery__item" data-category="app">
-              <img src="assets/img/work2.jpg" alt="App Design Project" />
+            <div class="gallery__item" data-category="awards">
+              <img
+                src="assets/img/work2.jpg"
+                alt="Receiving Jharkhand Lok Kala Samman"
+              />
               <div class="gallery__overlay">
-                <h3>App Project</h3>
-                <p>Click to view</p>
+                <h3 data-i18n="award1">Receiving Award</h3>
+                <p data-i18n="click_view">Click to view</p>
               </div>
             </div>
 
-            <div class="gallery__item" data-category="graphic">
-              <img src="assets/img/work3.jpg" alt="Graphic Design Project" />
+            <div class="gallery__item" data-category="events">
+              <img src="assets/img/work3.jpg" alt="At literature festival" />
               <div class="gallery__overlay">
-                <h3>Graphic Project</h3>
-                <p>Click to view</p>
+                <h3 data-i18n="event1">Literature Festival</h3>
+                <p data-i18n="click_view">Click to view</p>
               </div>
             </div>
 
-            <div class="gallery__item" data-category="web">
-              <img src="assets/img/work4.jpg" alt="Web Design Project" />
+            <div class="gallery__item" data-category="performance">
+              <img src="assets/img/work4.jpg" alt="Singing Khortha folk song" />
               <div class="gallery__overlay">
-                <h3>Web Project</h3>
-                <p>Click to view</p>
+                <h3 data-i18n="performance2">Folk Song Performance</h3>
+                <p data-i18n="click_view">Click to view</p>
               </div>
             </div>
 
-            <div class="gallery__item" data-category="app">
-              <img src="assets/img/work5.jpg" alt="App Design Project" />
+            <div class="gallery__item" data-category="awards">
+              <img src="assets/img/work5.jpg" alt="With fellow artists" />
               <div class="gallery__overlay">
-                <h3>App Project</h3>
-                <p>Click to view</p>
+                <h3 data-i18n="award2">International Honor</h3>
+                <p data-i18n="click_view">Click to view</p>
               </div>
             </div>
 
-            <div class="gallery__item" data-category="graphic">
-              <img src="assets/img/work6.jpg" alt="Graphic Design Project" />
+            <div class="gallery__item" data-category="events">
+              <img
+                src="assets/img/work6.jpg"
+                alt="Workshop on Khortha language"
+              />
               <div class="gallery__overlay">
-                <h3>Graphic Project</h3>
-                <p>Click to view</p>
+                <h3 data-i18n="event2">Language Workshop</h3>
+                <p data-i18n="click_view">Click to view</p>
               </div>
             </div>
           </div>
@@ -440,25 +522,26 @@
         <h2 class="section-title" data-i18n="news_title">News & Articles</h2>
         <div class="news-list" id="news-list"></div>
       </section>
-
+    </main>
 
     <!-- Lightbox -->
     <div class="lightbox" id="lightbox">
       <span class="lightbox-close">&times;</span>
-      <img id="lightbox-img" src="" alt="">
+      <img id="lightbox-img" src="" alt="" />
     </div>
 
     <!--===== FOOTER =====-->
     <footer class="footer">
-      <p class="footer__title">Marlon</p>
+      <p class="footer__title">Vinay Kumar Tiwari</p>
       <div class="footer__social">
         <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
         <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
       </div>
       <p class="footer__copy">Made with ❤ in India</p>
-
-      <p class="footer__copy">&#169; Arkvision Labs Private Limited. All rigths reserved</p>
+      <p class="footer__copy">
+        &#169; Arkvision Labs Private Limited. All rights reserved
+      </p>
     </footer>
 
     <!--===== SCROLL REVEAL =====-->
@@ -466,200 +549,6 @@
 
     <!--===== MAIN JS =====-->
     <script src="assets/js/main.js"></script>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        // Language Toggle
-        const languageToggle = document.getElementById("language-toggle");
-        let currentLanguage = "en";
-
-        // Translations object
-        const translations = {
-          en: {
-            home: "Home",
-            about: "About",
-            skills: "Skills",
-            work: "Work",
-            gallery: "Gallery",
-            news: "News",
-            contact: "Contact",
-            title: 'Hi,<br>I\'am <span class="home__title-color">Vinay</span><br> Web Designer',
-            about_subtitle: "I'am Marlon",
-            about_text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.",
-            skills_subtitle: "Professional Skills",
-            skills_text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.",
-            news_title: "News & Articles",
-            news_list: [
-              {
-                title: "Featured in TechCrunch – 'The Future of Web Design'",
-                url: "#",
-                img: "assets/img/work1.jpg",
-                description: "Read about my insights on the future of web design in this TechCrunch feature."
-              },
-              {
-                title: "Interview in Hindustan Times – 'Designing with Purpose'",
-                url: "#",
-                img: "assets/img/work2.jpg",
-                description: "My interview discussing how purposeful design creates better user experiences."
-              },
-              {
-                title: "Quoted in Times of India – 'UX Trends in 2025'",
-                url: "#",
-                img: "assets/img/work3.jpg",
-                description: "My predictions for the most important UX trends in the coming years."
-              }
-            ]
-          },
-          hi: {
-            home: "होम",
-            about: "परिचय",
-            skills: "कौशल",
-            work: "काम",
-            gallery: "गैलरी",
-            news: "समाचार",
-            contact: "संपर्क",
-            title: 'नमस्ते,<br>मैं हूँ <span class="home__title-color">मार्लोन</span><br> वेब डिज़ाइनर',
-            about_subtitle: "मैं मार्लोन हूँ",
-            about_text: "लोरेम इप्सम डोलोर सिट अमेट कंसक्टेटुर एडिपिसिसिंग एलिट। वोलुप्टेट कम एक्स्पेडिटा क्वो कुल्पा टेम्पोरा, अस्सुमेंडा, क्विस फुगिट उट वोलुप्टेट्स सोलुटा, ऑट एरम नेमो रिकुसेंडे कमक्यू पेरफेरेंडिस! रिकुसेंडे एलियस एक्कुसमस एटक्यू।",
-            skills_subtitle: "पेशेवर कौशल",
-            skills_text: "लोरेम इप्सम डोलोर सिट, अमेट कंसक्टेटुर एडिपिसिसिंग एलिट। वेलिट ऑप्टियो आईडी वेरो अमेट, एलियास आर्किटेक्टो कंसक्टेटुर एररर यूम ईक्यू सिट।",
-            news_title: "समाचार और लेख",
-            news_list: [
-              {
-                title: "टेकक्रंच में विशेष – 'वेब डिज़ाइन का भविष्य'",
-                url: "#",
-                img: "assets/img/work1.jpg",
-                description: "वेब डिज़ाइन के भविष्य पर मेरे विचार इस टेकक्रंच फीचर में पढ़ें।"
-              },
-              {
-                title: "हिंदुस्तान टाइम्स में साक्षात्कार – 'उद्देश्यपूर्ण डिज़ाइन'",
-                url: "#",
-                img: "assets/img/work2.jpg",
-                description: "मेरा साक्षात्कार जिसमें चर्चा की गई है कि कैसे उद्देश्यपूर्ण डिज़ाइन बेहतर उपयोगकर्ता अनुभव बनाता है।"
-              },
-              {
-                title: "टाइम्स ऑफ़ इंडिया में उद्धृत – '2025 में UX रुझान'",
-                url: "#",
-                img: "assets/img/work3.jpg",
-                description: "आने वाले वर्षों में सबसे महत्वपूर्ण UX रुझानों के बारे में मेरी भविष्यवाणियाँ।"
-              }
-            ]
-          }
-        };
-
-        // Toggle language function
-        languageToggle.addEventListener("click", function () {
-          currentLanguage = currentLanguage === "en" ? "hi" : "en";
-          this.textContent = currentLanguage === "en" ? "हिंदी" : "English";
-          translatePage();
-        });
-
-        // Translate the page
-        function translatePage() {
-          // Translate all elements with data-i18n attribute
-          document.querySelectorAll("[data-i18n]").forEach((element) => {
-            const key = element.getAttribute("data-i18n");
-            if (translations[currentLanguage][key]) {
-              element.textContent = translations[currentLanguage][key];
-            }
-          });
-
-          // Special handling for HTML content
-          const homeTitle = document.querySelector(".home__title");
-          if (homeTitle && translations[currentLanguage]["title"]) {
-            homeTitle.innerHTML = translations[currentLanguage]["title"];
-          }
-
-          const aboutSubtitle = document.querySelector(".about__subtitle");
-          if (aboutSubtitle && translations[currentLanguage]["about_subtitle"]) {
-            aboutSubtitle.textContent = translations[currentLanguage]["about_subtitle"];
-          }
-
-          const aboutText = document.querySelector(".about__text");
-          if (aboutText && translations[currentLanguage]["about_text"]) {
-            aboutText.textContent = translations[currentLanguage]["about_text"];
-          }
-
-          const skillsSubtitle = document.querySelector(".skills__subtitle");
-          if (skillsSubtitle && translations[currentLanguage]["skills_subtitle"]) {
-            skillsSubtitle.textContent = translations[currentLanguage]["skills_subtitle"];
-          }
-
-          const skillsText = document.querySelector(".skills__text");
-          if (skillsText && translations[currentLanguage]["skills_text"]) {
-            skillsText.textContent = translations[currentLanguage]["skills_text"];
-          }
-
-          // Update news articles
-          renderNewsArticles();
-        }
-
-        // Gallery Filter
-        const filterButtons = document.querySelectorAll(".gallery__filter-btn");
-        const galleryItems = document.querySelectorAll(".gallery__item");
-
-        filterButtons.forEach((button) => {
-          button.addEventListener("click", function () {
-            // Update active button
-            filterButtons.forEach((btn) => btn.classList.remove("active"));
-            this.classList.add("active");
-
-            const filterValue = this.getAttribute("data-filter");
-
-            // Filter items
-            galleryItems.forEach((item) => {
-              if (filterValue === "all" || item.getAttribute("data-category") === filterValue) {
-                item.style.display = "block";
-              } else {
-                item.style.display = "none";
-              }
-            });
-          });
-        });
-
-        // Lightbox functionality
-        const lightbox = document.getElementById("lightbox");
-        const lightboxImg = document.getElementById("lightbox-img");
-        const lightboxClose = document.querySelector(".lightbox-close");
-        const galleryImages = document.querySelectorAll(".gallery__item img");
-
-        galleryImages.forEach(img => {
-          img.addEventListener("click", function() {
-            lightbox.style.display = "flex";
-            lightboxImg.src = this.src;
-          });
-        });
-
-        lightboxClose.addEventListener("click", function() {
-          lightbox.style.display = "none";
-        });
-
-        lightbox.addEventListener("click", function(e) {
-          if (e.target === lightbox) {
-            lightbox.style.display = "none";
-          }
-        });
-
-        // News articles rendering
-        function renderNewsArticles() {
-          const newsList = document.getElementById("news-list");
-          const newsData = translations[currentLanguage].news_list;
-          
-          newsList.innerHTML = newsData.map(news => `
-            <div class="news-card">
-              <img src="${news.img}" alt="${news.title}">
-              <div class="news-content">
-                <h3>${news.title}</h3>
-                <p>${news.description}</p>
-                <a href="${news.url}" target="_blank">Read More</a>
-              </div>
-            </div>
-          `).join('');
-        }
-
-        // Initialize the page
-        renderNewsArticles();
-      });
-    </script>
+    <script src="assets/js/translations.js"></script>
   </body>
 </html>
