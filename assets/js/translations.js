@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function () {
       contact_button: "Contact Me",
       videos: "Videos",
       title:
-        'Hi,<br>I\'am <span class="home__title-color">Vinay Tiwari</span><br> Khortha lyricist, singer, writer, director, and cultural activist',
-      about_subtitle: "Vinay Kumar Tiwari",
+        'Hi,<br>I\'am <span class="home__title-color">Vinay Tiwari</span><br> Khortha lyricist',
+      about_subtitle: "Vinay Tiwari",
       about_text:
         "Renowned Khortha language lyricist, poet, and cultural advocate from Jharkhand, India. His songs poignantly depict rural life, folk culture, and social challenges of Jharkhand. Recognized for his pioneering contributions to preserving the Khortha language and folk literature.",
       born: "Born",
@@ -105,8 +105,8 @@ document.addEventListener("DOMContentLoaded", function () {
       contact_button: "संपर्क करें",
       videos: "वीडियो",
       title:
-        'नमस्ते,<br>मैं हूँ <span class="home__title-color">विनय तिवारी</span><br> खोरठा गीतकार, गायक, लेखक, निर्देशक और सांस्कृतिक कार्यकर्ता',
-      about_subtitle: "विनय कुमार तिवारी",
+        'नमस्ते,<br>मैं हूँ <span class="home__title-color">विनय तिवारी</span><br> खोरठा गीतकार, गायक',
+      about_subtitle: "विनय तिवारी",
       about_text:
         "झारखंड, भारत के प्रसिद्ध खोरठा भाषा के गीतकार, कवि और सांस्कृतिक प्रचारक। उनके गीत झारखंड के ग्रामीण जीवन, लोक संस्कृति और सामाजिक चुनौतियों को मार्मिकता से चित्रित करते हैं। खोरठा भाषा और लोक साहित्य के संरक्षण में अग्रणी योगदान के लिए मान्यता प्राप्त।",
       born: "जन्म",
