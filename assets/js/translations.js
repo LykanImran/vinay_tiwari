@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
       news: "News",
       contact: "Contact",
       contact_button: "Contact Me",
+      videos: "Videos",
       title:
         'Hi,<br>I\'am <span class="home__title-color">Vinay Tiwari</span><br> Khortha lyricist, singer, writer, director, and cultural activist',
       about_subtitle: "Vinay Kumar Tiwari",
@@ -102,6 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
       news: "समाचार",
       contact: "संपर्क",
       contact_button: "संपर्क करें",
+      videos: "वीडियो",
       title:
         'नमस्ते,<br>मैं हूँ <span class="home__title-color">विनय तिवारी</span><br> खोरठा गीतकार, गायक, लेखक, निर्देशक और सांस्कृतिक कार्यकर्ता',
       about_subtitle: "विनय कुमार तिवारी",
